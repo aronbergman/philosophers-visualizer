@@ -28,6 +28,8 @@ void write_duration(int size, int last, int start, int end, string action)
         cout << sleep(width);
     else if (!action.compare("is thinking"))
         cout << think(width);
+    else if (!action.compare("has taken a fork"))
+        cout << taken_fork(1);
 }
 
 int get_end(map<int, map<int, string> > philos)

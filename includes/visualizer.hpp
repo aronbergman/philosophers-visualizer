@@ -9,6 +9,7 @@ std::string space(int n);
 std::string eat(int n);
 std::string sleep(int n);
 std::string think(int n);
+std::string taken_fork(int n);
 
 void print_rule(int size, int end, int step);
 void print_data(int size, int end, std::map<int, std::map<int, std::string> > philos);
